@@ -21,6 +21,7 @@ export default function NewTaskForm ({createNewTask}) {
                 value={inputValue}
                 onChange={inputChange}
                 placeholder="Add task"/>
+            <button className="button" type="submit">Send</button>
         </form>
     )
 }

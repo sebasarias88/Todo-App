@@ -28,7 +28,6 @@ export default function EditTask({task, handleCompletedButtonClick, handleDelete
                     onChange={inputChange}/>
             </form>
             :
-
             <div className="task">
                 <p>{task.name}</p>
                 <button
