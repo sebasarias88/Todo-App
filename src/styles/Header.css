@@ -1,0 +1,45 @@
+:root {
+    --white: #fafafb;
+    --purple: #9a67ea;
+    --blue-light: #04d4c3;
+    --blue-dark: #2a73c2;
+    --green: #2c7b90;
+}
+
+
+body {
+    background: linear-gradient(to bottom,var(--purple),var(--blue-light));
+    display: flex;
+}
+
+.header{
+    margin-top: 60px;
+}
+.App{
+    text-align: center;
+    margin: auto;
+}
+
+.task {
+    background: white;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px;
+}
+
+.button {
+    border-radius: 15px;
+    margin: 10px;
+}
+
+.footer{
+    margin-top: 50px;
+    display: flex;
+}
+
+.input{
+    margin-top: 60px;
+    border-radius: 10px;
+}
