@@ -29,7 +29,7 @@ export default function EditTask({task, handleCompletedButtonClick, handleDelete
             </form>
             :
 
-            <div className="task" key={task.id}>
+            <div className="task">
                 <p>{task.name}</p>
                 <button
                     className="button"

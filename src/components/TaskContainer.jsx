@@ -21,6 +21,7 @@ export default function TaskContainer({tasks, setTasks}){
             {
                 tasks.map(task => (
                     <EditTask task={task}
+                              key={task.id}
                               handleDelete={handleDelete}
                               handleCompletedButtonClick={handleCompletedButtonClick}/>
                 ))

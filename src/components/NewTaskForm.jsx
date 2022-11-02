@@ -9,7 +9,6 @@ export default function NewTaskForm ({createNewTask}) {
     }
 
     const inputChange = (e) => {
-        console.log(e)
         setInputValue(e.target.value)
     }
 
