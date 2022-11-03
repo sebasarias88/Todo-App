@@ -21,7 +21,7 @@ export default function EditTask({task, handleCompletedButtonClick, handleDelete
             ?
             <form onSubmit={handleSubmit}>
                 <input
-                    className="input"
+                    className="input2"
                     type="text"
                     autoComplete="off"
                     value={value}

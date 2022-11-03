@@ -43,3 +43,11 @@ body {
     margin-top: 60px;
     border-radius: 10px;
 }
+
+.input2{
+    border-radius: 20px;
+    padding: 15px;
+    display: flex;
+    margin: 30px;
+    width: 500px;
+}
